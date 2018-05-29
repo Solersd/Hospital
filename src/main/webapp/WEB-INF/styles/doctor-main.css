@@ -1,0 +1,11 @@
+td {
+    text-align: center; /* Выравниваем текст по центру ячейки */
+}
+.div_style{
+    float: left; 
+    margin-left: 100px; 
+    width: 120px;
+}
+.input_width{
+    width: 125px;
+}

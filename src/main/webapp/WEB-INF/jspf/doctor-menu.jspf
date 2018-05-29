@@ -1,0 +1,9 @@
+<%@ page pageEncoding="UTF-8" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+<fmt:requestEncoding value="UTF-8" />
+<fmt:setLocale value="${currentLocale}"/>
+<fmt:bundle basename="localization.messages">
+<div style="width: 120px; height: 500px; padding: 5px; float: left;">
+    <p><a href="${pageContext.request.contextPath}/HospitalServlet?command=view-doctor-main-page"><fmt:message key="doctor.menu"/></a></p>
+</div>
+</fmt:bundle>
